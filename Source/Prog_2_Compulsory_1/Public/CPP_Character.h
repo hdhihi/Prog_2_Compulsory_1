@@ -31,7 +31,7 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
 	class UInputAction* JumpAction;
-
+	
 	void Move(const FInputActionValue& InputValue);
 	void Look(const FInputActionValue& InputValue);
 	void Jump();
